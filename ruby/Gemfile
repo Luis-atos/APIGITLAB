@@ -1,0 +1,2 @@
+gem 'gitlab'
+gem 'dotenv'

@@ -1,0 +1,2 @@
+GITLAB_URL='https://gitlab.com/api/v4'
+GITLAB_TOKEN='private_token'
