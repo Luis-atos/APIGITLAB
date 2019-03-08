@@ -32,6 +32,16 @@ export GITLAB_TOKEN='private_token'
 ```
 
 
+## Development
+
+When .env is created (or environment variables are available) executing `pry` in the directory will automatically create a `client` object to interact with. See [pryrc](.pryrc)
+
+```
+# pry
+[1] pry(main)> client.users.first.name
+=> "svc-gitlab"
+```
+
 ## Links
 * [Gitlab Gem](https://github.com/NARKOZ/gitlab)
   * [Reference](https://www.rubydoc.info/gems/gitlab)
