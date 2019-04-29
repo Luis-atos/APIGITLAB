@@ -25,11 +25,9 @@ list = Project.all.map do |project|
 
   total_avg = total.reduce(:+).to_f / total.size
   queued_avg = queued.reduce(:+).to_f / queued.size
+
   [
-    project.full_name,
-    project.id,
-    queued_avg,
-    total_avg,
+    project.full_name, project.id, queued_avg, total_avg
   ]
 end.compact; :ok
 
