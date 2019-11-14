@@ -5,6 +5,7 @@ Collection of API Examples, check out the individual language groups for usage a
 
 * [Ruby (gitlab gem)](/ruby/README.md)
 * [Bash](/bash/README.md)
+* [Rails Console](/rails/README.md)
 
 ## Links
 * [API Reference](https://docs.gitlab.com/ee/api/)

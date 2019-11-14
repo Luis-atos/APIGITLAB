@@ -4,8 +4,6 @@ While some of the usecases are similar. These examples use the `gitlab-rails con
 
 > Proceed with caution
 
-
-
 ## Usage
 
 ```
